@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BF58F"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+         <Button
+        android:id="@+id/goToProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Profile"
+        android:layout_margin="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/goToUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Go to User"
+        android:layout_margin="15dp"/>
+
+
+
+</LinearLayout>

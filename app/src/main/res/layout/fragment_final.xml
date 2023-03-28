@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#0A82E1"
+    tools:context=".FinalFragment">
+
+    <Button
+        android:id="@+id/homeBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home button"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:layout_margin="15dp"/>
+
+
+</LinearLayout>
